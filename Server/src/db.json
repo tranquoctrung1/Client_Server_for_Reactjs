@@ -1,0 +1,64 @@
+{
+    "products": [
+        {
+          "id": "dd375785-9253-4c15-a9a4-35a0463e111b",
+          "name": "Allspice - Jamaican",
+          "description": "donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna",
+          "imageUrl": "http://dummyimage.com/300x200.png/ff4444/ffffff"
+        },
+        {
+          "id": "d3eae766-e0f4-4b03-a783-7650bdb65b70",
+          "name": "Nutmeg - Ground",
+          "description": "rhoncus aliquam lacus morbi quis tortor id nulla ultrices aliquet",
+          "imageUrl": "http://dummyimage.com/300x200.png/dddddd/000000"
+        },
+        {
+          "id": "a0e0dfa5-e3a8-4487-8061-cf8ef39ec4ce",
+          "name": "Wine - Bourgogne 2002, La",
+          "description": "vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis",
+          "imageUrl": "http://dummyimage.com/300x200.png/5fa2dd/ffffff"
+        },
+        {
+          "id": "cabfe9f9-635e-4aad-bec8-c36750daa77a",
+          "name": "Peppercorns - Pink",
+          "description": "diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere",
+          "imageUrl": "http://dummyimage.com/300x200.png/5fa2dd/ffffff"
+        },
+        {
+          "id": "d0ac9dc9-6e06-495f-8b0b-4c3b87861681",
+          "name": "Juice - Propel Sport",
+          "description": "ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu",
+          "imageUrl": "http://dummyimage.com/300x200.png/ff4444/ffffff"
+        },
+        {
+          "id": "babf5c17-94ec-4d56-ab39-0daaae216c1c",
+          "name": "Calaloo",
+          "description": "in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id turpis integer aliquet massa id",
+          "imageUrl": "http://dummyimage.com/300x200.png/ff4444/ffffff"
+        },
+        {
+          "id": "508046a8-67c3-4ebb-bcba-b3f75b042920",
+          "name": "Quinoa",
+          "description": "rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id turpis integer aliquet massa id lobortis convallis tortor risus",
+          "imageUrl": "http://dummyimage.com/300x200.png/cc0000/ffffff"
+        },
+        {
+          "id": "46c39c3a-edb2-4fc2-8158-0d821c6e6185",
+          "name": "Artichoke - Hearts, Canned",
+          "description": "iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec",
+          "imageUrl": "http://dummyimage.com/300x200.png/dddddd/000000"
+        },
+        {
+          "id": "23aeb21c-6ae3-4775-8e63-8456f8638b85",
+          "name": "Veal Inside - Provimi",
+          "description": "mi pede malesuada in imperdiet et commodo vulputate justo in",
+          "imageUrl": "http://dummyimage.com/300x200.png/5fa2dd/ffffff"
+        },
+        {
+          "id": "a386bddc-e4ac-4644-93db-d9029cacdf45",
+          "name": "Raspberries - Fresh",
+          "description": "sem praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio",
+          "imageUrl": "http://dummyimage.com/300x200.png/ff4444/ffffff"
+        }
+    ]
+}
