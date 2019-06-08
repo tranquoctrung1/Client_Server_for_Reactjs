@@ -5,6 +5,7 @@ import axios from 'axios';
 
 import './product.sass'
 
+import CartContext from '../context/DataContext';
 
 class Product extends Component {
     constructor(props)
@@ -46,7 +47,9 @@ class Product extends Component {
                                 <CardBody>
                                     <CardTitle>{product.name}</CardTitle>
                                     <CardText>{product.description}</CardText>
-                                    <Button>Add to card</Button>
+                                    <CartContext.Consumer>
+                                        {({addToCart}) =>  <Button onClick={() => addToCart(product)}>Add to cart</Button>}
+                                    </CartContext.Consumer>
                                 </CardBody>
                         </Card>   
                       </Col>             

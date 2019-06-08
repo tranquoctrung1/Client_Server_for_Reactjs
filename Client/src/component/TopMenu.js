@@ -8,6 +8,8 @@ import {
   NavItem,
   NavLink,} from 'reactstrap';
 
+  import CartContext from '../context/DataContext';
+
 class TopMenu extends Component {
   constructor(props) {
     super(props);
@@ -22,6 +24,7 @@ class TopMenu extends Component {
       isOpen: !this.state.isOpen
     });
   }
+
   render() {
     return (
       <div>
@@ -36,6 +39,11 @@ class TopMenu extends Component {
               <NavItem>
                 <NavLink href="/product/">Product</NavLink>
               </NavItem>
+              <CartContext.Consumer>
+                {({cartItem})  =><NavItem>
+                  <NavLink href="/cart/">Cart ({localStorage.getItem('number') === null ? 0 : localStorage.getItem('number')})</NavLink>
+                </NavItem> }       
+              </CartContext.Consumer>
             </Nav>
           </Collapse>
         </Navbar>
